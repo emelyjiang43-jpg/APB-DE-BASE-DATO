@@ -8,13 +8,21 @@ La aplicación está orientada a un entorno educativo y práctico, permitiendo a
 #ANÁLISIS DE REQUERIMIENTOS
 
 La aplicación debe cumplir con las siguientes funcionalidades principales:
+
 •	Mostrar una página principal con menú de navegación.
+
 •	Registrar los datos del cliente (nombre y cédula).
+
 •	Registrar los datos del producto (nombre y precio).
+
 •	Validar que los campos obligatorios no estén vacíos.
+
 •	Permitir la navegación entre las diferentes secciones del sistema.
+
 •	Mostrar una salida con el resumen de la información ingresada.
+
 •	Gestionar los datos utilizando estructuras dinámicas en memoria.
+
 
 #DISEÑO DE INTERFAZ Y VALIDACIONES
 
@@ -26,17 +34,26 @@ Además, se aplican validaciones para evitar el ingreso de datos incompletos, mo
 
 El acceso a los datos se realiza mediante estructuras dinámicas en memoria, utilizando listas para almacenar la información de clientes y productos durante la ejecución del programa.
 La aplicación permite:
+
 •	Registrar información.
+
 •	Acceder y recorrer los datos almacenados.
+
 •	Mostrar los datos en la sección de salida.
+
 •	Mantener coherencia con el flujo definido en el diagrama y la propuesta inicial.
+
 
 #TECNOLOGÍAS UTILIZADAS
 
 •	Apache NetBeans IDE
+
 •	Java
+
 •	Swing (JFrame)
+
 •	Listas dinámicas
+
 
 
 #CONCLUSIÓN
