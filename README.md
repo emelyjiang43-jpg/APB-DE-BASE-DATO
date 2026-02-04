@@ -1,63 +1,75 @@
 # APB-DE-BASE-DATO
 #CONTEXTO
-
-La gestión manual de registros de clientes y productos puede generar errores, pérdida de información y desorganización en los procesos.
-Ante esta necesidad, se desarrolló una aplicación que permita registrar clientes, registrar productos y mostrar una salida con la información ingresada, facilitando el manejo de datos de forma clara y ordenada.
-La aplicación está orientada a un entorno educativo y práctico, permitiendo al usuario interactuar mediante una interfaz gráfica desarrollada en Apache NetBeans, optimizando el control de los procesos establecidos.
+En la actualidad, los libros manga se han convertido en una de las formas de lectura más populares entre jóvenes y adolescentes. Sin embargo, muchas bibliotecas escolares y personales no cuentan con un sistema digital organizado que permita registrar, buscar y gestionar correctamente estos libros. Esto provoca pérdida de información, dificultad para encontrar mangas disponibles y desorden en los registros.
+Este proyecto propone el desarrollo de una aplicación de gestión de libros manga, que permita registrar, consultar, actualizar y eliminar información relacionada con mangas, facilitando así el control y acceso a los datos de manera rápida, segura y ordenada.
 
 #ANÁLISIS DE REQUERIMIENTOS
+La aplicación debe cumplir con las siguientes funcionalidades principales:La aplicación debe cumplir con las siguientes funcionalidades principales:
 
-La aplicación debe cumplir con las siguientes funcionalidades principales:
+•	Registrar libros manga (título, autor, género, volumen, editorial, precio y estado).
 
-•	Mostrar una página principal con menú de navegación.
+•	Listar todos los mangas registrados.
 
-•	Registrar los datos del cliente (nombre y cédula).
+•	Buscar mangas por título o género.
 
-•	Registrar los datos del producto (nombre y precio).
+•	Actualizar información de un manga existente.
 
-•	Validar que los campos obligatorios no estén vacíos.
+•	Eliminar mangas del sistema.
 
-•	Permitir la navegación entre las diferentes secciones del sistema.
+•	Validar que los campos no estén vacíos y que los datos ingresados sean correctos.
 
-•	Mostrar una salida con el resumen de la información ingresada.
+•	Manejar errores mediante excepciones para evitar fallos del programa.
 
-•	Gestionar los datos utilizando estructuras dinámicas en memoria.
-
-
-#DISEÑO DE INTERFAZ Y VALIDACIONES
-
-La aplicación cuenta con una interfaz gráfica desarrollada con Swing (JFrame) en Apache NetBeans.
-Se implementa un menú principal que permite acceder a las diferentes secciones del sistema, garantizando una navegación clara e intuitiva.
-Además, se aplican validaciones para evitar el ingreso de datos incompletos, mostrando mensajes de advertencia cuando el usuario no cumple con los requisitos de entrada o salida de información.
-
-#ACCESO A DATOS Y FUNCIONALIDADES CLAVE
-
-El acceso a los datos se realiza mediante estructuras dinámicas en memoria, utilizando listas para almacenar la información de clientes y productos durante la ejecución del programa.
-La aplicación permite:
-
-•	Registrar información.
-
-•	Acceder y recorrer los datos almacenados.
-
-•	Mostrar los datos en la sección de salida.
-
-•	Mantener coherencia con el flujo definido en el diagrama y la propuesta inicial.
+•	Utilizar estructuras de datos para el almacenamiento de la información.
 
 
-#TECNOLOGÍAS UTILIZADAS
+#DISEÑO DE INTERFAZ 
+La aplicación contará con una interfaz gráfica desarrollada en Java Swing, compuesta por formularios que permitirán la interacción directa con el usuario.
 
-•	Apache NetBeans IDE
+•	Formulario de registro de manga.
 
-•	Java
+•	Formulario de listado de mangas.
 
-•	Swing (JFrame)
+•	Formulario de búsqueda.
 
-•	Listas dinámicas
+•	Formulario de actualización y eliminación.
+Los formularios incluirán botones, campos de texto, etiquetas y cuadros de diálogo para una mejor experiencia de usuario.
 
+
+#Validaciones
+La aplicación implementa validaciones para asegurar el correcto ingreso de datos:
+
+•	Campos obligatorios no vacíos.
+
+•	Validación de números en campos como volumen y precio.
+
+•	Mensajes de error cuando los datos son incorrectos.
+
+•	Uso de bloques try-catch para el manejo de excepciones.
+
+#Acceso a datos
+Para el almacenamiento de la información se utilizarán estructuras de datos, tales como:
+
+•	Arreglos dinámicos (ArrayList).
+
+•	HashMap para búsquedas rápidas por título.
+Estas estructuras permitirán agregar, recorrer, modificar y eliminar mangas de manera eficiente.
+
+#Funcionalidades clave
+
+•	Gestión completa de libros manga.
+
+•	Uso correcto de listas y funciones.
+
+•	Aplicación de funciones de orden superior para optimizar procesos.
+
+•	Acceso eficiente a los datos.
+
+•	Funcionalidades alineadas al diagrama de flujo y a la propuesta inicial.
 
 
 #CONCLUSIÓN
+La aplicación de gestión de libros manga permite organizar y administrar de manera eficiente la información de mangas, facilitando el acceso a los datos y mejorando la experiencia del usuario. Este proyecto cumple con los indicadores de logro establecidos, aplicando correctamente estructuras de datos, validaciones, manejo de excepciones e interfaces gráficas.
 
-El proyecto desarrollado cumple con los requerimientos establecidos en la rúbrica, implementando una aplicación funcional con interfaz gráfica, validaciones, manejo de datos y una correcta organización del flujo del sistema, utilizando únicamente Apache NetBeans como entorno de desarrollo.
 
 
