@@ -1,10 +1,14 @@
 # LIBRO_DE_MANGA
 Aplicación Java para la venta de manga .
 
-#Integrantes:
+## Integrantes
+
 •	MALDONADO DAYANNA
+
 •	QUIROZ ODETT
+
 •	JIANG JIAMEI 
+
 •	TRIVIÑO DANIELA
 
 # ABP 2do Quimestre - Venta de manga
