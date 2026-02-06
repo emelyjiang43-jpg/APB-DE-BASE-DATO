@@ -1,5 +1,6 @@
 # APB-DE-BASE-DATO
 #CONTEXTO
+
 En la actualidad, los libros manga se han convertido en una de las formas de lectura más populares entre jóvenes y adolescentes. Sin embargo, muchas bibliotecas escolares y personales no cuentan con un sistema digital organizado que permita registrar, buscar y gestionar correctamente estos libros. Esto provoca pérdida de información, dificultad para encontrar mangas disponibles y desorden en los registros.
 Este proyecto propone el desarrollo de una aplicación de gestión de libros manga, que permita registrar, consultar, actualizar y eliminar información relacionada con mangas, facilitando así el control y acceso a los datos de manera rápida, segura y ordenada.
 
