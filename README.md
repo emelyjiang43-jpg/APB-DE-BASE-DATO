@@ -5,6 +5,7 @@ En la actualidad, los libros manga se han convertido en una de las formas de lec
 Este proyecto propone el desarrollo de una aplicación de gestión de libros manga, que permita registrar, consultar, actualizar y eliminar información relacionada con mangas, facilitando así el control y acceso a los datos de manera rápida, segura y ordenada.
 
 #ANÁLISIS DE REQUERIMIENTOS
+
 La aplicación debe cumplir con las siguientes funcionalidades principales:La aplicación debe cumplir con las siguientes funcionalidades principales:
 
 •	Registrar libros manga (título, autor, género, volumen, editorial, precio y estado).
