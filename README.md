@@ -1,10 +1,19 @@
-# APB-DE-BASE-DATO
-#CONTEXTO
+# LIBRO_DE_MANGA
+Aplicación Java para la venta de manga .
+
+#Integrantes:
+•	MALDONADO DAYANNA
+•	QUIROZ ODETT
+•	JIANG JIAMEI 
+•	TRIVIÑO DANIELA
+
+# ABP 2do Quimestre - Venta de manga
+## 1.CONTEXTO
 
 En la actualidad, los libros manga se han convertido en una de las formas de lectura más populares entre jóvenes y adolescentes. Sin embargo, muchas bibliotecas escolares y personales no cuentan con un sistema digital organizado que permita registrar, buscar y gestionar correctamente estos libros. Esto provoca pérdida de información, dificultad para encontrar mangas disponibles y desorden en los registros.
 Este proyecto propone el desarrollo de una aplicación de gestión de libros manga, que permita registrar, consultar, actualizar y eliminar información relacionada con mangas, facilitando así el control y acceso a los datos de manera rápida, segura y ordenada.
 
-#ANÁLISIS DE REQUERIMIENTOS
+## 2. ANÁLISIS DE REQUERIMIENTOS
 
 La aplicación debe cumplir con las siguientes funcionalidades principales:La aplicación debe cumplir con las siguientes funcionalidades principales:
 
@@ -24,8 +33,8 @@ La aplicación debe cumplir con las siguientes funcionalidades principales:La ap
 
 •	Utilizar estructuras de datos para el almacenamiento de la información.
 
+## 3. DISEÑO DE INTERFAZ 
 
-#DISEÑO DE INTERFAZ 
 La aplicación contará con una interfaz gráfica desarrollada en Java Swing, compuesta por formularios que permitirán la interacción directa con el usuario.
 
 •	Formulario de registro de manga.
@@ -37,8 +46,8 @@ La aplicación contará con una interfaz gráfica desarrollada en Java Swing, co
 •	Formulario de actualización y eliminación.
 Los formularios incluirán botones, campos de texto, etiquetas y cuadros de diálogo para una mejor experiencia de usuario.
 
+## 4. Validaciones 
 
-#Validaciones
 La aplicación implementa validaciones para asegurar el correcto ingreso de datos:
 
 •	Campos obligatorios no vacíos.
@@ -49,7 +58,8 @@ La aplicación implementa validaciones para asegurar el correcto ingreso de dato
 
 •	Uso de bloques try-catch para el manejo de excepciones.
 
-#Acceso a datos
+## 5. Acceso a datos
+
 Para el almacenamiento de la información se utilizarán estructuras de datos, tales como:
 
 •	Arreglos dinámicos (ArrayList).
@@ -57,7 +67,7 @@ Para el almacenamiento de la información se utilizarán estructuras de datos, t
 •	HashMap para búsquedas rápidas por título.
 Estas estructuras permitirán agregar, recorrer, modificar y eliminar mangas de manera eficiente.
 
-#Funcionalidades clave
+## 6. Funcionalidades clave
 
 •	Gestión completa de libros manga.
 
@@ -69,8 +79,8 @@ Estas estructuras permitirán agregar, recorrer, modificar y eliminar mangas de 
 
 •	Funcionalidades alineadas al diagrama de flujo y a la propuesta inicial.
 
+## #CONCLUSIÓN
 
-#CONCLUSIÓN
 La aplicación de gestión de libros manga permite organizar y administrar de manera eficiente la información de mangas, facilitando el acceso a los datos y mejorando la experiencia del usuario. Este proyecto cumple con los indicadores de logro establecidos, aplicando correctamente estructuras de datos, validaciones, manejo de excepciones e interfaces gráficas.
 
 
